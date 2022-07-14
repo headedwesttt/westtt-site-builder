@@ -6,3 +6,9 @@ The simplest website builder for architecture and real estate photographers
 
 - React
 - TypeScript
+- Babel
+- Webpack
+
+## Deployment
+
+When deploying the project, the output folder should be specified as dist.
