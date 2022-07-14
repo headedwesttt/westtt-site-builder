@@ -1,7 +1,8 @@
 import React from "react";
-import { render } from "react-dom";
+import ReactDOM from "react-dom";
+import "core-js/stable";
 
-render(
+ReactDOM.render(
   <React.StrictMode>
     <p>Westtt Site Builder</p>
   </React.StrictMode>,
