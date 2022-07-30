@@ -1,14 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import 'core-js/stable';
-import { Login } from './Login';
-import { createMagic } from './utils/magic';
+import './index.scss';
+import { App } from './App';
 
-// const magic = await createMagic(); // need top level await
+const root = createRoot(document.getElementById('root')!);
 
-ReactDOM.render(
+root.render(
   <React.StrictMode>
-    <Login />
+    <App />
   </React.StrictMode>,
-  document.getElementById('root'),
 );
